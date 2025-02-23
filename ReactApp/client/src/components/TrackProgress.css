@@ -1,0 +1,93 @@
+.task-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .task-table th,
+  .task-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .task-table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .task-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .task-table tr:hover {
+    background-color: #e1f5fe;
+  }
+  
+  .btn {
+    padding: 6px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .complete {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .progress {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .priority {
+    background-color: #f44336;
+    color: white;
+  }
+  .task-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .task-table td.actions {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .complete {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .progress {
+    background-color: #ff9800;
+    color: white;
+  }
+  
+  .priority {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  

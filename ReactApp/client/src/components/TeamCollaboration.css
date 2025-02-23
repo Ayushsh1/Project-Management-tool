@@ -1,0 +1,58 @@
+/* Overall container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+  
+  /* Page title and subtitle */
+  .dashboard-title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  .dashboard-subtitle {
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  /* Feature card */
+  .feature-card {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .feature-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Content inside feature card */
+  .feature-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-icon {
+    font-size: 1.5rem;
+    margin-right: 15px;
+  }
+  
+  .feature-title {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .feature-description {
+    color: #6c757d;
+    margin: 5px 0 0;
+  }
+  
