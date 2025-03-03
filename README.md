@@ -34,8 +34,7 @@ Data-driven insights to enhance team efficiency and project quality.
 
 User Authentication:
 Secure login and signup pages.
-Role-based access control for different team members.
 
 Scalability and Performance:
-Built with Vite, React, Tailwind CSS, and JavaScript for a fast, responsive interface.
-WebRTC support for AI-powered video calls and collaboration.
+Built with Vite, React, Bootstript CSS, and JavaScript for a fast, responsive interface.
+
